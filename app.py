@@ -1,7 +1,7 @@
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-import swisseph as swe
+import pyswisseph as swe
 
 app = FastAPI(title="Vedic Astrology API")
 
